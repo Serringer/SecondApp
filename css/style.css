@@ -1,0 +1,10 @@
+.design-img {
+    position: relative;
+    max-height: 40vh;
+    overflow: hidden;
+}
+
+.design-img img {
+    width: 100%;
+    max-height: 80%;
+}
