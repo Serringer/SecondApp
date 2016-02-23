@@ -16,21 +16,32 @@
 
 <div id="index" data-role="page">
     <div data-role="header">
-        <h1>Forside</h1>
+        <h1>Tælg thema</h1>
     </div>
     <div data-role="content">
+        <form data-ajax="false" id="theme-choice" method="post">
+            <select name="theme" id="theme">
+                <option value="a">Thema a</option>
+                <option value="b">Thema b</option>
+                <option value="c">Thema c</option>
+                <option value="d">Thema d</option>
+                <option value="e">Thema e</option>
+            </select>
+            <button type="submit">Sæt</button>
+        </form>
     </div>
     <div data-role="footer" data-position="fixed" data-id="nav">
         <div data-role="navbar">
             <ul>
-                <li><a class="ui-btn-active" href="index.html" data-transition="flow">Forside</a></li>
+                <li><a href="index.html" data-transition="flow">Forside</a></li>
                 <li><a href="galleri.html" data-transition="slide">Galleri</a></li>
                 <li><a href="kontakt.html" data-transition="flip">Kontakt</a></li>
-                <li><a href="theme.html">Thema vælger</a></li>
             </ul>
         </div>
     </div>
 </div>
+
 <script src="js/script.js"></script>
 </body>
 </html>
+
